@@ -1,15 +1,13 @@
 # php-hook
- 
-# Add "Back to Home" Button for Single Blog Posts
 
-This WordPress plugin snippet adds a **"Back to Home"** button at the end of single blog posts, providing users with an easy way to navigate back to the homepage.
+This snippet adds a **"Back to Home"** button at the end of single blog posts, providing users with an easy way to navigate back to the homepage.
 
 ## Features
 
 - Displays a **"Back to Home"** button only on single blog posts.
 - Includes an SVG home icon and label for better UX.
 - Uses WordPress' `home_url()` to dynamically generate the homepage link.
-- Customizable via WordPress hooks.
+- Customizable via WordPress php hooks.
 
 ## Installation
 
