@@ -22,7 +22,7 @@ This snippet adds a **"Back to Home"** button at the end of single blog posts, p
 ```php
 <?php
 function add_back_to_home_button($content) {
-    if (is_singular('post')) { // Ensure this applies only to single blog posts
+    if (is_singular('post')) { 
         $back_to_home = '
         <div id="qodef-single-post-navigation" class="qodef-m">
             <div class="qodef-m-inner">
@@ -34,7 +34,7 @@ function add_back_to_home_button($content) {
                 </a>
             </div>
         </div>';
-        $content .= $back_to_home; // Append to post content
+        $content .= $back_to_home; 
     }
     return $content;
 }
